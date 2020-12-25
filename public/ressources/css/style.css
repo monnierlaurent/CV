@@ -43,8 +43,14 @@
             font-family: "roboto";
         }
         
-        .body--blur {
+        .body--blur_1 {
+            transition: 0.4s;
             filter: blur(0.4em);
+        }
+        
+        .body--blur_2 {
+            transition: 0.4s;
+            filter: blur(0);
         }
         
         .display_none {
@@ -311,6 +317,9 @@
             box-shadow: 5px 5px 5px var(--gris1);
             font-family: sans-serif;
             padding: 1.5em;
+        }
+        
+        .animation_1 {
             animation: zoom .5s forwards;
         }
         
@@ -320,6 +329,19 @@
             }
             to {
                 transform: scale(100%);
+            }
+        }
+        
+        .animation_2 {
+            animation: zoom2 .5s forwards;
+        }
+        
+        @keyframes zoom2 {
+            from {
+                transform: scale(100%);
+            }
+            to {
+                transform: scale(0);
             }
         }
         

@@ -30,18 +30,15 @@ createElm4 = (balise, value, attribut1, attributValue1, attribut2, attributValue
     return newElm4;
 };
 
-modals = (classIcons, lien, contenu1, contenu2) => {
+modals = (classIcons, contenu1, contenu2) => {
     const main = document.querySelector('body');
-    const newAside = main.appendChild(createElm2('aside', '', 'id', 'modal1', 'class', 'modal')); //
+    const newAside = main.appendChild(createElm2('aside', '', 'id', 'modal1', 'class', 'modal animation_1')); //
     const newDivAside = newAside.appendChild(createElm2('div', '', 'id', 'div_modal', 'class', 'modal-wrapper')); //
-    newDivAside.appendChild(createElm3('a', '', 'id', 'icon', 'href', lien, 'class', 'aside__a--flex'));
-
-    const icon = document.getElementById('icon');
-    icon.appendChild(createElm2('i', '', 'id', 'icon', 'class', 'far fa-times-circle fa-2x hover_2')); //
+    newDivAside.appendChild(createElm2('i', '', 'id', 'icon1', 'class', 'far fa-times-circle fa-2x hover_2')); //
     newDivAside.appendChild(createElm1('h2', '', 'id', 'heading', 'class', '')); //
 
     const h2 = document.getElementById('heading');
-    h2.appendChild(createElm2('i', '', 'id', 'icon', 'class', classIcons + ' ' + 'fa-4x aside__fa--color')); //
+    h2.appendChild(createElm2('i', '', 'id', 'icon_2', 'class', classIcons + ' ' + 'fa-4x aside__fa--color')); //
 
     newDivAside.appendChild(createElm1('p', contenu1)); //
     newDivAside.appendChild(createElm1('p', contenu2)); //
