@@ -14,8 +14,10 @@ createModalFooter = () => {
         divContainerFooter.setAttribute('class', 'body--blur_1');
 
         const parag1 = 'Vous voulez me contacter ?<br> <center>rien de plus simple</center>';
+        const tel = 'par téléphone au : <br><center> 06 63 98 03 44';
+        const email = '<center>Par email :<br>laurent.monnier51@orange.fr';
 
-        modals('fas fa-phone-square-alt', '', parag1, '');
+        modals('fas fa-phone-square-alt', parag1, tel, email, '', '');
 
         const modal = document.getElementById('modal1');
         const BtnHide = document.getElementById('icon1');

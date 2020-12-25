@@ -30,7 +30,7 @@ createElm4 = (balise, value, attribut1, attributValue1, attribut2, attributValue
     return newElm4;
 };
 
-modals = (classIcons, contenu1, contenu2) => {
+modals = (classIcons, contenu1, contenu2, contenu3, contenu4, contenu5, ) => {
     const main = document.querySelector('body');
     const newAside = main.appendChild(createElm2('aside', '', 'id', 'modal1', 'class', 'modal animation_1')); //
     const newDivAside = newAside.appendChild(createElm2('div', '', 'id', 'div_modal', 'class', 'modal-wrapper')); //
@@ -42,4 +42,7 @@ modals = (classIcons, contenu1, contenu2) => {
 
     newDivAside.appendChild(createElm1('p', contenu1)); //
     newDivAside.appendChild(createElm1('p', contenu2)); //
+    newDivAside.appendChild(createElm1('p', contenu3)); //
+    newDivAside.appendChild(createElm1('p', contenu4)); //
+    newDivAside.appendChild(createElm1('p', contenu5)); //
 };
