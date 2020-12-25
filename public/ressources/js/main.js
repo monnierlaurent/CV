@@ -3,15 +3,28 @@ createModalMain = () => {
 
     const formation = document.getElementById('formation');
 
-
     formation.addEventListener('click', () => {
 
-        divContainerFooter.setAttribute('class', 'body--blur');
+        divContainerFooter.setAttribute('class', 'body--blur_1');
 
-        modals('fas fa-info', './index.html', 'Cette rubrique n\'inclus pas les formations militaire ni les compétences acquise en temps qu\'autodidacte', '');
+        const parag1 = 'Cette rubrique n\'inclus pas les formations militaire ni les compétences acquise en temps qu\'autodidacte';
+
+        modals('fas fa-info', parag1, '');
+
+        const modal = document.getElementById('modal1');
+        const BtnHide = document.getElementById('icon1');
+
+        BtnHide.addEventListener('click', (event) => {
+
+            modal.setAttribute('class', 'modal animation_2');
+            divContainerFooter.setAttribute('class', 'body--blur_2');
+
+            setTimeout(() => {
+                const main = document.querySelector('body');
+                main.removeChild(modal);
+            }, 400);
+        });
     });
-
-
-};
+}; // fin de createModalMain
 
 createModalMain();
