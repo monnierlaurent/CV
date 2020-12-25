@@ -1,11 +1,11 @@
 createModalMain = () => {
-    const divContainerFooter = document.getElementById('div--blur');
+    const divContainerMain = document.getElementById('div--blur');
 
     const formation = document.getElementById('formation');
 
     formation.addEventListener('click', () => {
 
-        divContainerFooter.setAttribute('class', 'body--blur_1');
+        divContainerMain.setAttribute('class', 'body--blur_1');
 
         const parag1 = 'Cette rubrique n\'inclus pas les formations militaire ni les compétences acquise en temps qu\'autodidacte';
 
@@ -17,7 +17,7 @@ createModalMain = () => {
         BtnHide.addEventListener('click', (event) => {
 
             modal.setAttribute('class', 'modal animation_2');
-            divContainerFooter.setAttribute('class', 'body--blur_2');
+            divContainerMain.setAttribute('class', 'body--blur_2');
 
             setTimeout(() => {
                 const main = document.querySelector('body');
