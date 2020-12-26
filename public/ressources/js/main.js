@@ -9,7 +9,7 @@ createModalMain = () => {
 
         const parag1 = 'Cette rubrique n\'inclus pas les formations militaire ni les compétences acquise en temps qu\'autodidacte';
 
-        modals('fas fa-info', parag1, '');
+        modalsFormation('fas fa-info', parag1);
 
         const modal = document.getElementById('modal1');
         const BtnHide = document.getElementById('icon1');
