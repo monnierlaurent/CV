@@ -17,7 +17,7 @@ createModalFooter = () => {
         const tel = 'par téléphone au : <br><center> 06 63 98 03 44';
         const email = '<center>Par email :<br>laurent.monnier51@orange.fr';
 
-        modals('fas fa-phone-square-alt', parag1, tel, email, '', '');
+        modalsContact('fas fa-phone-square-alt', parag1, tel, email);
 
         const modal = document.getElementById('modal1');
         const BtnHide = document.getElementById('icon1');
@@ -40,7 +40,7 @@ createModalFooter = () => {
 
         const parag2 = '<center>Et oui !!!</center><br><center>développer n\'est pas que mon métier c\'est aussi ma passion.</center>';
 
-        modals('fas fa-laptop-code', '', parag2, '');
+        modalsLoisir('fas fa-laptop-code', parag2);
 
         const modal = document.getElementById('modal1');
         const BtnHide = document.getElementById('icon1');
@@ -63,7 +63,7 @@ createModalFooter = () => {
 
         const parag3 = '<center>Le jeu me permet de changer d\'univer</center>';
 
-        modals('fab fa-xbox', '', parag3, '');
+        modalsLoisir('fab fa-xbox', parag3);
 
         const modal = document.getElementById('modal1');
         const BtnHide = document.getElementById('icon1');
@@ -86,7 +86,7 @@ createModalFooter = () => {
 
         const parag4 = '<center>Et oui !!!</center><br><center>J\'ai souvent besoin d\'un grand bolle d\'aire.</center>';
 
-        modals('fas fa-walking', '', parag4, '');
+        modalsLoisir('fas fa-walking', parag4);
 
         const modal = document.getElementById('modal1');
         const BtnHide = document.getElementById('icon1');

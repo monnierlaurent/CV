@@ -78,6 +78,7 @@
         .hover_2:hover {
             transition: 0.4s;
             color: var(--orange);
+            scale: 1.2;
             cursor: pointer;
         }
         
@@ -224,7 +225,6 @@
             display: flex;
             flex-direction: row;
             justify-content: flex-start;
-            line-height: 0;
         }
         /*----section 5----*/
         /*----section 6----*/
@@ -256,10 +256,16 @@
         .section_6__p--padding {
             padding-left: 1.5em;
             line-height: 0.8em;
+            font-style: italic;
         }
         
         .section_6__div_2--line {
             line-height: 0;
+        }
+        
+        .section_6__article--parag--style {
+            line-height: 1.5em;
+            font-style: normal;
         }
         /*----section 7 et 8----*/
         
