@@ -425,3 +425,71 @@
             }
         }
         /*-----version mobile-----*/
+        
+        @media screen and (max-width: 376px) {
+            .header--flex--style_1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-size: 1em;
+            }
+            .header--flex--style_2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding-right: 0;
+            }
+            .header__img--padding--seize {
+                width: 40%;
+                height: auto;
+            }
+            .div_1__icons--flex--style {
+                border-bottom: solid 0.1em var(--orange);
+            }
+            .main__footer__container--flex {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .main--style--seize--flex {
+                width: 100%;
+            }
+            .main__footer_separation--seize--style {
+                display: none;
+            }
+            .footer--style--seize--flex {
+                width: 100%;
+            }
+            address {
+                display: flex;
+                flex-direction: column;
+                padding-left: 1.5em;
+            }
+            .section_2__div_1--padding {
+                padding: 0 1em 0 1em;
+            }
+            .section_6__div_1--flex,
+            .section_4__article__div_1--flex {
+                display: none;
+            }
+            .section_6__article--flex,
+            .section_4__article--flex {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .section_4__article--flex_2 {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            .section_3__div--flex--style {
+                padding: 0.2em 0 1.5em 0;
+            }
+        }
