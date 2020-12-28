@@ -38,9 +38,10 @@ createModalFooter = () => {
 
         divContainerFooter.setAttribute('class', 'body--blur_1');
 
-        const parag2 = '<center>Et oui !!!</center><br><center>développer n\'est pas que mon métier c\'est aussi ma passion.</center>';
+        const parag1 = '<center>Développer n\'est pas que mon métier c\'est aussi ma passion.</center>';
+        const parag2 = '<center>Quand je ne conçois pas des sites web je travaille sur Unreal Engine 4 a la création de petits jeux.</center>';
 
-        modalsLoisir('fas fa-laptop-code', parag2);
+        modalsLoisir('fas fa-laptop-code', parag1, parag2);
 
         const modal = document.getElementById('modal1');
         const BtnHide = document.getElementById('icon1');
@@ -61,9 +62,10 @@ createModalFooter = () => {
 
         divContainerFooter.setAttribute('class', 'body--blur_1');
 
-        const parag3 = '<center>Le jeu me permet de changer d\'univer</center>';
+        const parag1 = '<center>Le jeu me permet de changer d\'univers</center>';
+        const parag2 = '<center>Etant un grand fan de survial horror, je ma plonge dans la franchise résident evil pour changer de monde.</center>';
 
-        modalsLoisir('fab fa-xbox', parag3);
+        modalsLoisir('fab fa-xbox', parag1, parag2);
 
         const modal = document.getElementById('modal1');
         const BtnHide = document.getElementById('icon1');
@@ -84,9 +86,10 @@ createModalFooter = () => {
 
         divContainerFooter.setAttribute('class', 'body--blur_1');
 
-        const parag4 = '<center>Et oui !!!</center><br><center>J\'ai souvent besoin d\'un grand bolle d\'aire.</center>';
+        const parag1 = '<center>J\'ai souvent besoin d\'un grand bolle d\'aire.</center>';
+        const parag2 = '<center>J\'aime la marche dynamique qui ma détend et me permet de garder la forme pour être performant.</center>';
 
-        modalsLoisir('fas fa-walking', parag4);
+        modalsLoisir('fas fa-walking', parag1, parag2);
 
         const modal = document.getElementById('modal1');
         const BtnHide = document.getElementById('icon1');

@@ -7,9 +7,12 @@ createModalMain = () => {
 
         divContainerMain.setAttribute('class', 'body--blur_1');
 
-        const parag1 = 'Cette rubrique n\'inclus pas les formations militaire ni les compétences acquise en temps qu\'autodidacte';
+        const parag1 = 'Cette rubrique n\'inclus pas les formations militaire ni les compétences acquises en temps qu\'autodidacte.';
+        const parag2 = 'Les formations militaire que j\'ai suivis mon permis d\'apprendre a diriger une équipe , a gérer le stresse,';
+        const parag3 = 'mais avant tout, sa a fait de moi un professionnel.';
+        const parag4 = 'J\'ai appris la réparation informatique en tant qu\'autodidacte.';
 
-        modalsFormation('fas fa-info', parag1);
+        modalsFormation('fas fa-info', parag1, parag2, parag3, parag4);
 
         const modal = document.getElementById('modal1');
         const BtnHide = document.getElementById('icon1');

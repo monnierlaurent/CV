@@ -44,7 +44,7 @@ modalsHeader = (classIcons, contenu1) => {
 
 };
 
-modalsFormation = (classIcons, contenu1) => {
+modalsFormation = (classIcons, contenu1, contenu2, contenu3, contenu4) => {
     const main = document.querySelector('body');
     const newAside = main.appendChild(createElm2('aside', '', 'id', 'modal1', 'class', 'modal animation_1')); //
     const newDivAside = newAside.appendChild(createElm2('div', '', 'id', 'div_modal', 'class', 'modal-wrapper')); //
@@ -55,6 +55,9 @@ modalsFormation = (classIcons, contenu1) => {
     h2.appendChild(createElm2('i', '', 'id', 'icon_2', 'class', classIcons + ' ' + 'fa-4x aside__fa--color')); //
 
     newDivAside.appendChild(createElm1('p', contenu1)); //
+    newDivAside.appendChild(createElm1('p', contenu2)); //
+    newDivAside.appendChild(createElm1('p', contenu3)); //
+    newDivAside.appendChild(createElm1('p', contenu4)); //
 
 };
 
@@ -73,7 +76,7 @@ modalsContact = (classIcons, contenu1, contenu2, contenu3) => {
     newDivAside.appendChild(createElm1('p', contenu3)); //
 };
 
-modalsLoisir = (classIcons, contenu1) => {
+modalsLoisir = (classIcons, contenu1, contenu2) => {
     const main = document.querySelector('body');
     const newAside = main.appendChild(createElm2('aside', '', 'id', 'modal1', 'class', 'modal animation_1')); //
     const newDivAside = newAside.appendChild(createElm2('div', '', 'id', 'div_modal', 'class', 'modal-wrapper')); //
@@ -83,5 +86,6 @@ modalsLoisir = (classIcons, contenu1) => {
     const h2 = document.getElementById('heading');
     h2.appendChild(createElm2('i', '', 'id', 'icon_2', 'class', classIcons + ' ' + 'fa-4x aside__fa--color')); //
 
-    newDivAside.appendChild(createElm1('p', contenu1)); //
+    newDivAside.appendChild(createElm1('p', contenu1));
+    newDivAside.appendChild(createElm1('p', contenu2)); //
 };
