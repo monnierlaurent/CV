@@ -422,6 +422,18 @@
                                     .header--flex--style_2 {
                                         padding-right: 6.5em;
                                     }
+                                    .modal-wrapper {
+                                        width: 50%;
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: center;
+                                        background-color: var(--noir);
+                                        border: solid 2px var(--orange);
+                                        border-radius: 10px;
+                                        box-shadow: 5px 5px 5px var(--gris1);
+                                        font-family: sans-serif;
+                                        padding: 1.5em;
+                                    }
                                 }
                                 /*-----version tablette-----*/
                                 
@@ -494,6 +506,18 @@
                                     .section_3__div--flex--style {
                                         padding: 0.2em 0 1.5em 0;
                                     }
+                                    .modal-wrapper {
+                                        width: 60%;
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: center;
+                                        background-color: var(--noir);
+                                        border: solid 2px var(--orange);
+                                        border-radius: 10px;
+                                        box-shadow: 5px 5px 5px var(--gris1);
+                                        font-family: sans-serif;
+                                        padding: 1.5em;
+                                    }
                                 }
                                 /*-----version mobile-----*/
                                 
@@ -516,11 +540,28 @@
                                         flex-direction: column;
                                         justify-content: center;
                                     }
+                                    body {
+                                        width: 85%;
+                                    }
+                                    .header--flex--style_1 {
+                                        font-size: 0.8em;
+                                    }
+                                    .modal-wrapper {
+                                        width: 70%;
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: center;
+                                        background-color: var(--noir);
+                                        border: solid 2px var(--orange);
+                                        border-radius: 10px;
+                                        font-family: sans-serif;
+                                        padding: 1.5em;
+                                    }
                                 }
                                 
                                 @media screen and (max-width: 351px) {
                                     .header--flex--style_1 {
-                                        font-size: 1em;
+                                        font-size: 0.8em;
                                     }
                                     .header__img--padding--seize {
                                         width: 40%;
@@ -537,7 +578,7 @@
                                 
                                 @media screen and (max-width: 320px) {
                                     .header--flex--style_1 {
-                                        font-size: 0.9em;
+                                        font-size: 0.7em;
                                     }
                                     .header__img--padding--seize {
                                         width: 45%;
