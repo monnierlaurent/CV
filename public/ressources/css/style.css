@@ -34,10 +34,13 @@
                                 }
                                 
                                 h1,
-                                h2,
-                                h3 {
+                                h2 {
                                     background: url('../../ressources/images/11.jpg');
                                     background-size: 1500px;
+                                    font-family: "Audiowide";
+                                }
+                                
+                                h3 {
                                     font-family: "Audiowide";
                                 }
                                 
