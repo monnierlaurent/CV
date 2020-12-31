@@ -39,7 +39,7 @@ createModalFooter = () => {
         divContainerFooter.setAttribute('class', 'body--blur_1');
 
         const parag1 = '<center>Développer n\'est pas que mon métier c\'est aussi ma passion.</center>';
-        const parag2 = '<center>Quand je ne conçois pas des sites web je travaille sur Unreal Engine 4 a la création de petits jeux.</center>';
+        const parag2 = '<center>Quand je ne conçois pas des sites web je travaille sur Unreal Engine 4 a la création de mini jeu.</center>';
 
         modalsLoisir('fas fa-laptop-code', parag1, parag2);
 
@@ -63,7 +63,7 @@ createModalFooter = () => {
         divContainerFooter.setAttribute('class', 'body--blur_1');
 
         const parag1 = '<center>Le jeu me permet de changer d\'univers</center>';
-        const parag2 = '<center>Etant un grand fan de survial horror, je ma plonge dans la franchise résident evil pour changer de monde.</center>';
+        const parag2 = '<center>Etant un grand fan de survial horror, je ma plonge dans la franchise Résident Evil pour changer de monde.</center>';
 
         modalsLoisir('fab fa-xbox', parag1, parag2);
 
@@ -86,7 +86,7 @@ createModalFooter = () => {
 
         divContainerFooter.setAttribute('class', 'body--blur_1');
 
-        const parag1 = '<center>J\'ai souvent besoin d\'un grand bolle d\'aire.</center>';
+        const parag1 = '<center>J\'ai souvent besoin d\'un grand bol d\'aire.</center>';
         const parag2 = '<center>J\'aime la marche dynamique qui ma détend et me permet de garder la forme pour être performant.</center>';
 
         modalsLoisir('fas fa-walking', parag1, parag2);

@@ -36,6 +36,8 @@
                                 h1,
                                 h2,
                                 h3 {
+                                    background: url('../../ressources/images/11.jpg');
+                                    background-size: 1500px;
                                     font-family: "Audiowide";
                                 }
                                 
@@ -93,29 +95,38 @@
                                     width: 100%;
                                     display: flex;
                                     flex-direction: row-reverse;
-                                    background-image: url('../../ressources/images/11.jpg');
-                                    background-size: cover;
+                                    background-color: var(--gris1);
+                                    /*background-image: url('../../ressources/images/11.jpg');
+                                    background-size: cover;*/
                                 }
                                 
                                 .h2--background {
                                     background-color: var(--orange);
                                     color: var(--blanc);
                                     padding: 0.2em 0 0.2em 0;
+                                    font-size: 1.8em;
                                     text-align: center;
+                                    border: solid 1px var(--orange);
+                                }
+                                
+                                .h2_margin {
+                                    margin-top: 0;
                                 }
                                 /*----header----*/
                                 
                                 .header--flex--style_1 {
                                     width: 100%;
-                                    background-color: var(--gris1);
-                                    border-top: solid 0.1em var(--orange);
-                                    border-bottom: solid 0.1em var(--orange);
+                                    background-image: url('../../ressources/images/11.jpg');
+                                    background-size: cover;
+                                    /*background-color: var(--gris1);*/
+                                    border-top: solid 1px var(--orange);
+                                    border-bottom: solid 1px var(--orange);
                                     line-height: 0;
                                     padding: 0.5em 0 0.5em 0;
                                     display: flex;
                                     flex-direction: row;
                                     align-items: center;
-                                    font-size: 1.5em;
+                                    font-size: 1.7em;
                                 }
                                 
                                 .header--flex--style_2 {
@@ -123,11 +134,11 @@
                                     display: flex;
                                     flex-direction: column;
                                     align-items: center;
-                                    padding-right: 8em;
+                                    padding-right: 6.5em;
                                 }
                                 
                                 .header__img--padding--seize {
-                                    width: 12%;
+                                    width: 14%;
                                     height: auto;
                                     padding: 0 0.5em 0 0.5em;
                                 }
@@ -138,7 +149,7 @@
                                     justify-content: center;
                                     align-items: center;
                                     background-color: var(--gris1);
-                                    border-bottom: solid 0.2em var(--orange);
+                                    border-bottom: solid 1px var(--orange);
                                     padding: 1em 0 1em 0;
                                 }
                                 
@@ -155,9 +166,23 @@
                                 }
                                 
                                 .main__footer_separation--seize--style {
-                                    border-left: dotted 0.2em var(--orange);
+                                    border-left: dotted 1px var(--orange);
+                                }
+                                
+                                .article__p--margin {
+                                    margin-top: 0;
+                                }
+                                
+                                .article__p--margin__flex {
+                                    display: flex;
+                                    justify-content: flex-start;
+                                    align-self: flex-start;
                                 }
                                 /*----footer----*/
+                                
+                                .footer__adress--font {
+                                    font-size: 1.3em;
+                                }
                                 
                                 .footer--style--seize--flex {
                                     width: 30%;
@@ -195,10 +220,20 @@
                                     padding-bottom: 2em;
                                 }
                                 
-                                .section_6__article--flex,
+                                .section_6__article--flex {
+                                    display: flex;
+                                    flex-direction: row;
+                                }
+                                
                                 .section_4__article--flex {
                                     display: flex;
                                     flex-direction: row;
+                                }
+                                
+                                .section_4__article--flex_1 {
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-items: center;
                                 }
                                 
                                 .fas--padding,
@@ -214,6 +249,7 @@
                                 .section_6__div_1--flex,
                                 .section_4__article__div_1--flex {
                                     width: 35%;
+                                    font-size: 1.3em;
                                 }
                                 
                                 .section_6__div_2--flex,
@@ -221,6 +257,7 @@
                                     width: 65%;
                                     display: flex;
                                     flex-direction: column;
+                                    font-size: 1.3em;
                                 }
                                 
                                 .section_6__div_3--flex,
@@ -264,6 +301,7 @@
                                 
                                 .section_6__div_2--line {
                                     line-height: 0;
+                                    font-size: 1.3em;
                                 }
                                 
                                 .section_6__article--parag--style {
@@ -275,6 +313,7 @@
                                 .section_7_8__div--flex {
                                     display: flex;
                                     flex-direction: row;
+                                    padding-bottom: 2.9em;
                                 }
                                 
                                 .section_7--flex--style {
@@ -294,12 +333,17 @@
                                     flex-direction: row;
                                     justify-content: space-around;
                                     padding-bottom: 1em;
+                                    font-size: 1.3em;
                                 }
                                 
                                 .section_8__div--flex {
                                     display: flex;
                                     flex-direction: row;
                                     align-items: center;
+                                }
+                                
+                                .section_2__div_1--padding {
+                                    font-size: 1.3em;
                                 }
                                 /* modal general*/
                                 
@@ -325,6 +369,7 @@
                                     border-radius: 10px;
                                     box-shadow: 5px 5px 5px var(--gris1);
                                     font-family: sans-serif;
+                                    font-size: 1.3em;
                                     padding: 1.5em;
                                 }
                                 
